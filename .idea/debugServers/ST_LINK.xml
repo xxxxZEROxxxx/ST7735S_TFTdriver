@@ -1,0 +1,13 @@
+<component name="DebugServers">
+  <stlink-debug-target name="ST-LINK" uniqueID="539eee43-100f-4866-ba90-34508abcfdb5" selected="true">
+    <debugger version="1">
+      <debugger kind="GDB" isBundled="true" />
+      <env />
+    </debugger>
+    <gdbserver exe="/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.stlink-gdb-server.macos64_2.2.200.202505060755/tools/bin/ST-LINK_gdbserver" programmer="/Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.macos64_2.2.200.202503041107/tools/bin" />
+    <st-link />
+    <device interface="SWD" reset-before="true" />
+    <connection extended-remote="false" port="61234" warmup-ms="500" />
+    <swo enabled="false" port="61235" />
+  </stlink-debug-target>
+</component>
